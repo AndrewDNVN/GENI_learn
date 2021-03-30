@@ -1,0 +1,48 @@
+Error:
+
+	Page link:
+	 https://groups.geni.net/geni/wiki/GENIExperimenter/Tutorials/SystematicExperimentationAnsible/Execute
+
+	Terminal Output:
+	test@test-VirtualBox:~/Documents/GENI/Exp/ansible/ansible$ ansible-playbook server.yml -i inventory --limit server
+	ERROR! 'sudo' is not a valid attribute for a Play
+
+	The error appears to be in '/home/test/Documents/GENI/Exp/ansible/ansible/server.yml': line 21, column 3, but may
+	be elsewhere in the file depending on the exact syntax problem.
+
+	The offending line appears to be:
+
+	---
+	- hosts: server*
+  	  ^ here
+
+
+  	The file (at ime of error):
+	#
+	# Copyright (c) 2017 Raytheon BBN Technologies
+	# 
+	# Permission is hereby granted, free of charge, to any person obtaining a copy of this 
+	# software and/or hardware specification (the “Work”) to deal in the Work without 
+	# restriction, including without limitation the rights to use, copy, modify, merge, 
+	# publish, distribute, sublicense, and/or sell copies of the Work, and to permit 
+	# persons to whom the Work is furnished to do so, subject to the following conditions:  
+	# 
+	# The above copyright notice and this permission notice shall be included in all 
+	# copies or substantial portions of the Work.  
+	# 
+	# THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+	# INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+	# PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
+	# HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION 
+	# OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK 
+	# OR THE USE OR OTHER DEALINGS IN THE WORK. 
+	#
+	---
+	- hosts: server*
+	  roles:
+	#   - iperf
+	   - webserver
+	   - nmap
+
+
+

@@ -1,0 +1,17 @@
+Slivers by aggregate for slice urn:publicid:IDN+ch.geni.net:UKGENI+slice+AMDExpRnd2:
+
+Aggregate: urn:publicid:IDN+instageni.ku.gpeni.net+authority+cm ( kansas-ig )
+    Sliver: urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47713
+	Expires at: 2021-03-22T18:24:07Z (UTC)
+    Sliver: urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47712
+	Expires at: 2021-03-22T18:24:07Z (UTC)
+    Sliver: urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47716
+	Expires at: 2021-03-22T18:24:07Z (UTC)
+    Sliver: urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47715
+	Expires at: 2021-03-22T18:24:07Z (UTC)
+    Sliver: urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47714
+	Expires at: 2021-03-22T18:24:07Z (UTC)
+    Sliver: urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47718
+	Expires at: 2021-03-22T18:24:07Z (UTC)
+
+

@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "keys": [
+        {
+          "type": "ssh", 
+          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA5lyWY+10KbZyl/6kzyrDoqEZjr4wfVI9ffxmoHk5sE1NX0uIcS4LL50GNRq4vI0z3h3v4aUXqnoBwu21FOwjQcNbbh7XByTYIU7vboNBNnDSL/GfilQuNDXx7aEFI4z8IoFFdbyoHewW99GXzikW1fB1AmvtVdZkIa/qNvdFsqPp+QV7kmhE9QdFx+t4LcM1pgOW4MLPk0Z+m49PrQYKAkiBbURcr+lRO3XVHaEVrU9pBtIbb4hRY/hq4Nqk4CXyLhnpn3YzJ9I4vDg9r8Lx0aRWDVAklnYSaw+QtXpqF05b6REV/vCsgV7c1fhwflNka8K/uInaWMlFActHWSyDkw== hussamn"
+        }
+      ], 
+      "urn": "urn:publicid:IDN+ch.geni.net+user+hussamn", 
+      "login": "hussamn"
+    }, 
+    {
+      "keys": [
+        {
+          "type": "ssh", 
+          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDB+wfWSNbFi18iAMVfivx2FbXngZmywRtejww+dcBB47pPH4GEIp2s2w5J4tYJEa2RLGy/gSxnYoawoP3n78Az98KCHQLOsLom/mRvcYSE+1dnaYc1BKI0UP0T5tja1sFGUFjKc74Wh/eSn/NeaYOvBFmVx1wUXgzPvxBnsylRTz9i10q4sMT14G+9JEW/g/WZqtvrcFPkWMpF3sGreOIgptj4WnwOjg9E3eLVbpCNPsEMIVkMZkTVkjVvPIljmF3tUQ58HFfgNaiiUdE93Avmdq+CbIshDu8oWilIhDcLOmDYlEzI4Eixd7r9TFZVOT7IvjJ8GJNu5m08Bb/cAqlh nasir"
+        }
+      ], 
+      "urn": "urn:publicid:IDN+ch.geni.net+user+nasir", 
+      "login": "nasir"
+    }, 
+    {
+      "keys": [
+        {
+          "type": "ssh", 
+          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDgktAjT/5ITmxXP04Su7mfunf0z7WrF0Da5BVJ1o94PJMt9QwqADVTpEjQG6rZl/DO0q/LBtd/hr3T/OnQTRvRNMtZLe6qM8Oyqy1AvBFtJX7WAYL7m9XyyBeWL5pMbnDOQR2pY4iRe4CvgsMItH0Gxn2MEti3C26oLPYfk1YJE9t2TTmYiInMzdF44a3IW2nlsoHiEAN8w5rqbPem6ZvC7ZYCaqQ1ZVmNVB+Bnm+O0ZgDNFFtOfbB171EwicodkT3kIOUY/5oJO8YHGw328jnbfn6Ksqb/rT9XKl/p4TzSqtiGn6/ZGbCh8oM2NBNm/76j86Q6IdSMbMB3z3/mN+7 amdo257"
+        }
+      ], 
+      "login": "amdo257", 
+      "urn": "urn:publicid:IDN+ch.geni.net+user+amdo257"
+    }
+  ], 
+  "pg_status": "ready", 
+  "geni_status": "ready", 
+  "geni_urn": "urn:publicid:IDN+ch.geni.net:UKGENI+slice+AMDExpRnd2", 
+  "geni_resources": [
+    {
+      "geni_client_id": "client-1", 
+      "pg_status": "ready", 
+      "geni_urn": "urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47716", 
+      "geni_error": "", 
+      "geni_status": "ready"
+    }, 
+    {
+      "geni_client_id": "link-0", 
+      "pg_status": "ready", 
+      "geni_urn": "urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47718", 
+      "geni_error": "", 
+      "geni_status": "ready"
+    }, 
+    {
+      "geni_client_id": "client-2", 
+      "pg_status": "ready", 
+      "geni_urn": "urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47713", 
+      "geni_error": "", 
+      "geni_status": "ready"
+    }, 
+    {
+      "geni_client_id": "client", 
+      "pg_status": "ready", 
+      "geni_urn": "urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47712", 
+      "geni_error": "", 
+      "geni_status": "ready"
+    }, 
+    {
+      "geni_client_id": "server-0", 
+      "pg_status": "ready", 
+      "geni_urn": "urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47715", 
+      "geni_error": "", 
+      "geni_status": "ready"
+    }, 
+    {
+      "geni_client_id": "server", 
+      "pg_status": "ready", 
+      "geni_urn": "urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47714", 
+      "geni_error": "", 
+      "geni_status": "ready"
+    }
+  ], 
+  "pg_expires": "2021-03-22T18:24:07Z", 
+  "pg_public_url": "https://www.instageni.ku.gpeni.net/showslicepub.php?publicid=8a646f46235e29f8bdf20d784e617ae0"
+}

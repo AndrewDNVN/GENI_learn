@@ -1,0 +1,8 @@
+Uses protoGeni only one online currently
+
+Error: 	
+
+	Creating sliver(s) from rspec file /tmp/omni-invoke-amdo257-ZYObRY/request_rspec.xml for slice urn:publicid:IDN+ch.geni.net:UKGENI+slice+BabelAMDUKY
+	21:13:42 ERROR   : Call for Create Sliver urn:publicid:IDN+ch.geni.net:UKGENI+slice+BabelAMDUKY at maki-pg failed.: Unknown SSL error: ('The read operation timed out',)
+	21:13:42 WARNING : Failed CreateSliver for slice urn:publicid:IDN+ch.geni.net:UKGENI+slice+BabelAMDUKY at maki-pg.  Unknown SSL error: ('The read operation timed out',) (missing result)
+

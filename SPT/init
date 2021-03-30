@@ -1,0 +1,3 @@
+Error: Failed to create a sliver.
+
+Failed CreateSliver for slice urn:publicid:IDN+ch.geni.net:UKGENI+slice+SPTAMDUKY at maki-pg. Unknown SSL error: ('The read operation timed out',) (missing result)

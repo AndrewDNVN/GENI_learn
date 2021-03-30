@@ -1,0 +1,4 @@
+change port number in netcat from 4444 to something else 
+	Reason: Normal Metasploit (normal listneing port)
+
+No issues on 20.04 ()

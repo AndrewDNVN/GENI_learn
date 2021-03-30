@@ -1,0 +1,5 @@
+client-1  ansible_ssh_host=pc3.instageni.ku.gpeni.net  ansible_ssh_port=28210  ansible_ssh_user=amdo257 
+server-0  ansible_ssh_host=pcvm1-32.instageni.ku.gpeni.net  ansible_ssh_user=amdo257 
+client  ansible_ssh_host=pc1.instageni.ku.gpeni.net  ansible_ssh_port=28210  ansible_ssh_user=amdo257 
+client-2  ansible_ssh_host=pc1.instageni.ku.gpeni.net  ansible_ssh_port=28211  ansible_ssh_user=amdo257 
+server  ansible_ssh_host=pcvm1-31.instageni.ku.gpeni.net  ansible_ssh_user=amdo257 

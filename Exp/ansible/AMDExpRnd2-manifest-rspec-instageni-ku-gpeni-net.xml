@@ -1,0 +1,61 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/manifest.xsd" type="manifest" expires="2021-03-22T18:24:07Z">
+<node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="server" component_manager_id="urn:publicid:IDN+instageni.ku.gpeni.net+authority+cm" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+node+pc1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47714" exclusive="false">
+<icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+
+<routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+<sliver_type name="emulab-xen">
+<disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+</sliver_type>
+<services><login authentication="ssh-keys" hostname="pcvm1-31.instageni.ku.gpeni.net" port="22" username="hussamn"/><login authentication="ssh-keys" hostname="pcvm1-31.instageni.ku.gpeni.net" port="22" username="nasir"/><login authentication="ssh-keys" hostname="pcvm1-31.instageni.ku.gpeni.net" port="22" username="amdo257"/><emulab:console server="pcvm1-31.instageni.ku.gpeni.net"/><emulab:imageable available="true"/></services>
+<interface client_id="interface-1" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47720" mac_address="020f0a014055"><ip address="10.10.1.2" type="ipv4" netmask="255.255.255.0"/></interface>
+<emulab:vnode name="pcvm1-31" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/><host name="server.AMDExpRnd2.ch-geni-net.instageni.ku.gpeni.net" ipv4="198.248.248.134"/></node>
+<node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="client" component_manager_id="urn:publicid:IDN+instageni.ku.gpeni.net+authority+cm" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+node+pc1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47712" exclusive="false">
+<icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/>
+
+<sliver_type name="emulab-xen">
+<disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+</sliver_type>
+<services><login authentication="ssh-keys" hostname="pc1.instageni.ku.gpeni.net" port="28210" username="hussamn"/><login authentication="ssh-keys" hostname="pc1.instageni.ku.gpeni.net" port="28210" username="nasir"/><login authentication="ssh-keys" hostname="pc1.instageni.ku.gpeni.net" port="28210" username="amdo257"/><emulab:console server="pc1.instageni.ku.gpeni.net"/><emulab:imageable available="true"/></services>
+<interface client_id="interface-0" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47719" mac_address="0245d769fe81"><ip address="10.10.1.1" type="ipv4" netmask="255.255.255.0"/></interface>
+<emulab:vnode name="pcvm1-29" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/><host name="client.AMDExpRnd2.ch-geni-net.instageni.ku.gpeni.net"/></node>
+<node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="server-0" component_manager_id="urn:publicid:IDN+instageni.ku.gpeni.net+authority+cm" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+node+pc1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47715" exclusive="false">
+<icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+
+<routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+<sliver_type name="emulab-xen">
+<disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+</sliver_type>
+<services><login authentication="ssh-keys" hostname="pcvm1-32.instageni.ku.gpeni.net" port="22" username="hussamn"/><login authentication="ssh-keys" hostname="pcvm1-32.instageni.ku.gpeni.net" port="22" username="nasir"/><login authentication="ssh-keys" hostname="pcvm1-32.instageni.ku.gpeni.net" port="22" username="amdo257"/><emulab:console server="pcvm1-32.instageni.ku.gpeni.net"/><emulab:imageable available="true"/></services>
+
+<interface client_id="interface-2" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47721" mac_address="0288d0790fb8"><ip address="10.10.1.3" type="ipv4" netmask="255.255.255.0"/></interface>
+<emulab:vnode name="pcvm1-32" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/><host name="server-0.AMDExpRnd2.ch-geni-net.instageni.ku.gpeni.net" ipv4="198.248.248.135"/></node>
+<node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="client-1" component_manager_id="urn:publicid:IDN+instageni.ku.gpeni.net+authority+cm" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+node+pc3" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47716" exclusive="false">
+<icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/>
+
+<sliver_type name="emulab-xen">
+<disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+</sliver_type>
+<services><login authentication="ssh-keys" hostname="pc3.instageni.ku.gpeni.net" port="28210" username="hussamn"/><login authentication="ssh-keys" hostname="pc3.instageni.ku.gpeni.net" port="28210" username="nasir"/><login authentication="ssh-keys" hostname="pc3.instageni.ku.gpeni.net" port="28210" username="amdo257"/><emulab:console server="pc3.instageni.ku.gpeni.net"/><emulab:imageable available="true"/></services>
+
+<interface client_id="interface-4" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc3:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47723" mac_address="026ff5212361"><ip address="10.10.1.5" type="ipv4" netmask="255.255.255.0"/></interface>
+<emulab:vnode name="pcvm3-15" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/><host name="client-1.AMDExpRnd2.ch-geni-net.instageni.ku.gpeni.net"/></node>
+<node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="client-2" component_manager_id="urn:publicid:IDN+instageni.ku.gpeni.net+authority+cm" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+node+pc1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47713" exclusive="false">
+<icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/>
+
+<sliver_type name="emulab-xen">
+<disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+</sliver_type>
+<services><login authentication="ssh-keys" hostname="pc1.instageni.ku.gpeni.net" port="28211" username="hussamn"/><login authentication="ssh-keys" hostname="pc1.instageni.ku.gpeni.net" port="28211" username="nasir"/><login authentication="ssh-keys" hostname="pc1.instageni.ku.gpeni.net" port="28211" username="amdo257"/><emulab:console server="pc1.instageni.ku.gpeni.net"/><emulab:imageable available="true"/></services>
+
+<interface client_id="interface-3" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47722" mac_address="02d29a1f2509"><ip address="10.10.1.4" type="ipv4" netmask="255.255.255.0"/></interface>
+<emulab:vnode name="pcvm1-30" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/><host name="client-2.AMDExpRnd2.ch-geni-net.instageni.ku.gpeni.net"/></node>
+<link client_id="link-0" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47718" vlantag="259">
+<interface_ref client_id="interface-0" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47719"/>
+<interface_ref client_id="interface-1" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47720"/>
+
+<interface_ref client_id="interface-2" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47721"/>
+<interface_ref client_id="interface-3" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47722"/>
+<interface_ref client_id="interface-4" component_id="urn:publicid:IDN+instageni.ku.gpeni.net+interface+pc3:eth1" sliver_id="urn:publicid:IDN+instageni.ku.gpeni.net+sliver+47723"/>
+<component_manager name="urn:publicid:IDN+instageni.ku.gpeni.net+authority+cm"/>
+</link>
+<rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1"><rs:location country="" latitude="38.958056" longitude="-95.247778"/></rs:site_info></rspec>

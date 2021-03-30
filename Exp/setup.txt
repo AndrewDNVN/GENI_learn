@@ -1,0 +1,74 @@
+test@test-VirtualBox:~/Documents/GENI/Exp$ ansible -i inventory all -m ping
+The authenticity of host 'pcvm3-7.instageni.idre.ucla.edu (164.67.126.36)' can't be established.
+ECDSA key fingerprint is SHA256:th9CBlenQEmmMtDfChO73CpVIqRiJmQogb9BDZl98y0.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+[DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host Client-1 should use 
+/usr/bin/python3, but is using /usr/bin/python for backward compatibility with prior 
+Ansible releases. A future Ansible release will default to using the discovered 
+platform python for this host. See 
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html 
+for more information. This feature will be removed in version 2.12. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+Client-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+[DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host Server-0 should use 
+/usr/bin/python3, but is using /usr/bin/python for backward compatibility with prior 
+Ansible releases. A future Ansible release will default to using the discovered 
+platform python for this host. See 
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html 
+for more information. This feature will be removed in version 2.12. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+Server-0 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+[DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host Client-2 should use 
+/usr/bin/python3, but is using /usr/bin/python for backward compatibility with prior 
+Ansible releases. A future Ansible release will default to using the discovered 
+platform python for this host. See 
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html 
+for more information. This feature will be removed in version 2.12. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+Client-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+[DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host Client should use 
+/usr/bin/python3, but is using /usr/bin/python for backward compatibility with prior 
+Ansible releases. A future Ansible release will default to using the discovered 
+platform python for this host. See 
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html 
+for more information. This feature will be removed in version 2.12. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+Client | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+[DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host Server should use 
+/usr/bin/python3, but is using /usr/bin/python for backward compatibility with prior 
+Ansible releases. A future Ansible release will default to using the discovered 
+platform python for this host. See 
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html 
+for more information. This feature will be removed in version 2.12. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+Server | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
