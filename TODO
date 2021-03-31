@@ -1,0 +1,27 @@
+3/31/2021
+
+  Working with Jupyter Notebooks (to test for a bit).
+  
+  Reading: Building in GENI tools and things that work well in Fabric
+  
+  (Start) Prometheus: Monitoring tool
+      Currently using Prometheous Server and running and exporting on the sub nodes.
+      Exporters pulling info ~30 seconds to the head node / process.
+      Very good at account level data
+      https://prometheus.io/
+      https://github.com/prometheus/prometheus
+      
+   Running: in docker containers
+    https://www.docker.com/resources/what-container
+  
+  Grafana: Looking at time bases data
+    Memory use; 
+    
+  Sidecar: reads database and sends off to the log to the central server
+    Global level data from across the country to (PS2)
+  
+  ELK: 
+    Logstash: https://www.elastic.co/logstash
+    Elasticsearch: https://www.elastic.co/
+    Kibana: https://www.elastic.co/kibana
+  
